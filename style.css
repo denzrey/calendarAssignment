@@ -1,0 +1,72 @@
+
+img {
+     
+    box-sizing: border-box;
+    width: 25%;
+    height: 300px;
+    max-height: 25%;
+    max-width: 25%;
+    float: left;
+    padding: 5px; 
+   
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+/* child combinator */
+div > .green {
+    box-shadow: 0 0 20px 0 rgb(13, 14, 13);  
+    border:5px solid rgb(124, 216, 115);  
+    
+}
+
+/* descendant combinator */
+a img {
+    box-shadow: 0 0 5px 0 rgb(248, 246, 246);   
+    border:5px solid rgb(110, 52, 225);  
+    
+} 
+
+
+.blue {
+    box-shadow: 0 0 20px 0 rgb(13, 14, 13);  
+    border:5px solid rgb(128, 227, 240); 
+}
+
+#jan {   
+    box-shadow: 0 0 15px 0 rgb(250, 24, 3);   
+    
+    
+   
+}
+
+#jan:hover {   
+    border:20px solid rebeccapurple;   
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+   
+}
+
+
+
+#apr:hover {   
+    border:20px solid rgb(253, 10, 208);   
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+   
+    
+}
+
+#nov:hover {   
+    border:20px solid rgb(249, 81, 3);   
+    -webkit-transition: all .9s ease-in-out;
+    -moz-transition: all .9s ease-in-out;
+    transition: all .9s ease-in-out;
+}
